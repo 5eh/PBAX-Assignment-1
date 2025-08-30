@@ -1,0 +1,12 @@
+{
+  "name": "Polkadot Assignment",
+  "type": "module",
+  "dependencies": {
+    "@polkadot/api": "latest",
+    "commander": "latest",
+    "chalk": "latest"
+  },
+  "bin": {
+    "polkadot-validator": "./validator-cli.js"
+  }
+}
